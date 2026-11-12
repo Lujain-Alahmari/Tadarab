@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/assets/logo.png" width="120" alt="Tadarab logo"></p>
+
 # Tadarab | تدرّب
 
 An Android graduation project connecting students with training opportunities and supporting communication between students, training advisors, academic advisors, and administrators.
@@ -32,7 +34,7 @@ Open `docs/index.html` directly in a browser. No installation or account is requ
 
 1. Open this repository in Android Studio.
 2. Install Android SDK 32; the project targets SDK 32 and supports API 21 or later.
-3. Use a JDK compatible with the existing Android Gradle Plugin and Gradle wrapper (the project uses Java 8 source compatibility).
+3. Use JDK 17 for Android Gradle Plugin 8.0.2 and Gradle 8.0.2. Java source compatibility remains Java 8.
 4. Allow Gradle to synchronize dependencies. Older third-party dependencies may require maintenance.
 5. Configure a compatible backend in `app/src/main/java/com/graduation/kas/tadarab/WebSiteData.java` before using network-backed screens.
 
@@ -56,3 +58,7 @@ README.md         Project overview and setup
 Computer Science graduation project, King Khalid University. Published as part of Lujain Mesfer's portfolio. The browser demo is a later portfolio companion and should not be represented as the original Android application.
 
 No open-source license is asserted for the original project or third-party assets. Their respective ownership and terms remain applicable.
+
+## Repository audit
+
+The published client includes all 165 retained source/resource/wrapper files from the supplied archive. Machine-specific files, build products and caches are intentionally excluded. The Gradle wrapper is aligned to Android Gradle Plugin 8.0.2 (Gradle 8.0.2, JDK 17). The browser demo includes student, training-advisor, academic-advisor and administrator dashboards. The backend and database were not present in the supplied archive; a complete live Android service still requires them. An Android build has not been verified in this environment.
