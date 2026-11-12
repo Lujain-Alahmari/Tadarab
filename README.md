@@ -8,7 +8,7 @@ An Android graduation project connecting students with training opportunities an
 
 [Open the browser demo](https://lujain-alahmari.github.io/Tadarab/)
 
-**بالعربية:** جرّب التقديم على فرصة تدريب، ثم بدّل إلى دور المشرف لقبول الطلب أو رفضه. العرض يستخدم بيانات وهمية ولا يتصل بالخادم الأصلي.
+**الديمو:** جرّب التقديم على فرصة تدريب، ثم بدّل إلى دور المشرف لقبول الطلب أو رفضه. العرض يستخدم بيانات وهمية ولا يتصل بالخادم الأصلي.
 
 The `docs/` directory contains a new, browser-based demonstration of the project's workflows. It is **not an Android emulator or a live backend**. All organizations, applications and messages are fictional, stored in memory for the current page session, and never submitted to an external service.
 
