@@ -1,1 +1,54 @@
-# Tadarab
+# Tadarab | تدرّب
+
+An Android graduation project connecting students with training opportunities and supporting communication between students, training advisors, academic advisors, and administrators.
+
+## Interactive demo
+
+The `docs/` directory contains a new, browser-based demonstration of the project's workflows. It is **not an Android emulator or a live backend**. All organizations, applications and messages are fictional, stored in memory for the current page session, and never submitted to an external service.
+
+Open `docs/index.html` directly in a browser. No installation or account is required.
+
+1. Browse or filter training opportunities.
+2. Submit a sample application as a student.
+3. Switch to the training-advisor role and accept or reject the request.
+4. Switch back to inspect the updated status and try the simulated messaging interface.
+5. Reset the demo to start again.
+
+## Original Android application
+
+- Student registration, profiles and training opportunity browsing.
+- Training application tracking and advisor review.
+- Training program management.
+- Form exchange and messaging.
+- Academic advisor and administrator screens.
+
+**Stack:** Java, Android SDK, XML layouts, Volley, Gradle.
+
+## Open the Android source
+
+1. Open this repository in Android Studio.
+2. Install Android SDK 32; the project targets SDK 32 and supports API 21 or later.
+3. Use a JDK compatible with the existing Android Gradle Plugin and Gradle wrapper (the project uses Java 8 source compatibility).
+4. Allow Gradle to synchronize dependencies. Older third-party dependencies may require maintenance.
+5. Configure a compatible backend in `app/src/main/java/com/graduation/kas/tadarab/WebSiteData.java` before using network-backed screens.
+
+### Backend and verification limitations
+
+The supplied archive contains the Android client, not its server implementation or database. The historical backend URL has been replaced with `https://example.invalid/` to prevent accidental requests to an unverified service. Login, real applications, uploads and messaging therefore require a separately configured backend. The Android app has not been built or tested against a live backend in this publication pass.
+
+This is an academic prototype, not a production-ready service. Review authentication, authorization, password handling and file-upload validation before connecting it to real users or personal data. The public source excludes build output, local SDK paths, IDE caches, compiled APKs and machine-specific files.
+
+## Repository layout
+
+```text
+app/              Original Android client source and resources
+gradle/           Gradle wrapper
+docs/             Standalone browser demo with fictional data
+README.md         Project overview and setup
+```
+
+## Project context
+
+Computer Science graduation project, King Khalid University. Published as part of Lujain Mesfer's portfolio. The browser demo is a later portfolio companion and should not be represented as the original Android application.
+
+No open-source license is asserted for the original project or third-party assets. Their respective ownership and terms remain applicable.

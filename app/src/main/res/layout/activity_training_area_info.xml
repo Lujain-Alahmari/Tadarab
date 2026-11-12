@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Student.TrainingAreaInfoActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:id="@+id/client"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="12dp"
+        android:layout_marginBottom="16dp"
+        app:cardBackgroundColor="@color/cardcolor"
+        android:elevation="10dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_margin="8dp"
+            android:id="@+id/aaaa"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:id="@+id/training_arealay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1.4"
+                        android:text="Training area:"
+                        android:textColor="@color/colorPrimary"
+                        android:textDirection="ltr"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:id="@+id/training_area"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="0.6"
+                        android:textDirection="ltr"
+                        android:textSize="13dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:weightSum="2"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1.4"
+                        android:text="Advisor name:"
+                        android:textColor="@color/colorPrimary"
+                        android:textDirection="ltr"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:id="@+id/name"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="0.6"
+                        android:textDirection="ltr"
+                        android:textSize="13dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:weightSum="2"
+                    android:layout_height="wrap_content">
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:autoLink="phone"
+                        android:text="Mobile:"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1.4"
+                        android:textDirection="ltr"
+                        android:textSize="13dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:autoLink="phone"
+                        android:layout_marginTop="8dp"
+                        android:id="@+id/mobile"
+                        android:layout_weight="0.6"
+                        android:textDirection="ltr"
+                        android:textSize="13dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:weightSum="2"
+                    android:layout_height="wrap_content">
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1.4"
+                        android:text="E-Mail:"
+                        android:textColor="@color/colorPrimary"
+                        android:textDirection="ltr"
+                        android:textSize="13dp" />
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:id="@+id/email"
+                        android:autoLink="email"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="0.6"
+                        android:textDirection="ltr"
+                        android:textSize="13dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:weightSum="2">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1.4"
+                        android:text="Password:"
+                        android:textColor="@color/colorPrimary"
+                        android:textDirection="ltr"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="0.6"
+                        android:textDirection="ltr"
+                        android:textSize="13dp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/addresslay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1.4"
+                        android:text="Address:"
+                        android:textColor="@color/colorPrimary"
+                        android:textDirection="ltr"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:id="@+id/address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="0.6"
+                        android:textDirection="ltr"
+                        android:textSize="13dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1.4"
+                        android:text="Username:"
+                        android:textColor="@color/colorPrimary"
+                        android:textDirection="ltr"
+                        android:textSize="13dp" />
+
+
+                    <TextView
+                        android:id="@+id/username"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="0.6"
+                        android:textDirection="ltr"
+                        android:textSize="13dp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:background="@drawable/btnround"
+        android:text="Rate Training"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:id="@+id/sendRate"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:background="@drawable/btnround"
+        android:text="Forms"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:id="@+id/forms"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+</LinearLayout>

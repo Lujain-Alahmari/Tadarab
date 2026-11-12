@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/dimen50dp"
+    tools:context=".Student.SendRateActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/colorPrimary"
+        android:text="Area Rate"
+        android:layout_height="wrap_content"/>
+
+    <me.zhanghai.android.materialratingbar.MaterialRatingBar
+        android:layout_width="match_parent"
+        android:id="@+id/arearating"
+        android:rating="2"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/dimen20dp"
+        style="@style/Widget.MaterialRatingBar.RatingBar"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="@dimen/dimen40dp"
+        android:text="Training Rate"
+        android:layout_height="wrap_content"/>
+
+    <me.zhanghai.android.materialratingbar.MaterialRatingBar
+        android:layout_width="match_parent"
+        android:id="@+id/trainingrating"
+        android:rating="2"
+        android:textStyle="bold"
+        style="@style/Widget.MaterialRatingBar.RatingBar"
+        android:layout_marginTop="@dimen/dimen20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:background="@drawable/btnround"
+        android:text="Send Rate"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:id="@+id/sendRate"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

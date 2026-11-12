@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/home"
+        android:title="Home" />
+
+
+    <item
+        android:id="@+id/trainingprogram"
+        android:title="Manage training programs" />
+
+    <item
+        android:id="@+id/myRequest"
+        android:title="Manage training requests" />
+
+
+    <item
+        android:id="@+id/adminmessage"
+        android:title="Contact Admin" />
+
+
+
+    <item
+        android:id="@+id/messagelist"
+        android:title="Inbox" />
+
+
+
+    <item
+        android:id="@+id/profile"
+        android:title="Update profile" />
+
+    <item
+        android:id="@+id/password"
+        android:title="Change password" />
+
+
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout" />
+
+
+</menu>

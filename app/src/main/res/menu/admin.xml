@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/academic_advisor"
+        android:title="Manage academic advisors" />
+
+    <item
+        android:id="@+id/training_advisor"
+        android:title="Manage training areas" />
+
+
+    <item
+        android:id="@+id/student"
+        android:title="Manage students" />
+
+
+    <item
+        android:id="@+id/messagelist"
+        android:title="Inbox" />
+
+
+
+    <item
+        android:id="@+id/profile"
+        android:title="Update profile" />
+
+    <item
+        android:id="@+id/password"
+        android:title="Change password" />
+
+
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout" />
+
+
+</menu>
